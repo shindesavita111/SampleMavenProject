@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.testcases.TestcasesForAddUser">
+        <methods>
+          <include name="CkeckSelectDropdown"/>
+        </methods>
+      </class> <!-- com.testcases.TestcasesForAddUser -->
+      <class name="com.testcases.TestcasesForLogin">
+        <methods>
+          <include name="prerequisitesForLogin"/>
+          <include name="closeBrowser"/>
+          <include name="CheckValidCredentials"/>
+          <include name="checkTitle"/>
+        </methods>
+      </class> <!-- com.testcases.TestcasesForLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-09T12:10:23Z" name="Suite" finished-at="2022-12-09T12:11:00Z" duration-ms="37328">
+    <groups>
+    </groups>
+    <test started-at="2022-12-09T12:10:23Z" name="Test" finished-at="2022-12-09T12:11:00Z" duration-ms="37328">
+      <class name="com.testcases.TestcasesForLogin">
+        <test-method signature="checkTitle()[pri:0, instance:com.testcases.TestcasesForLogin@332729ad]" started-at="2022-12-09T12:10:23Z" name="checkTitle" finished-at="2022-12-09T12:10:25Z" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method signature="Check_RegisterNewLink()[pri:0, instance:com.testcases.TestcasesForLogin@332729ad]" started-at="2022-12-09T12:10:25Z" name="Check_RegisterNewLink" finished-at="2022-12-09T12:10:41Z" duration-ms="16472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_RegisterNewLink -->
+        <test-method signature="CheckValidCredentials()[pri:0, instance:com.testcases.TestcasesForLogin@332729ad]" started-at="2022-12-09T12:10:41Z" name="CheckValidCredentials" finished-at="2022-12-09T12:11:00Z" depends-on-methods="com.testcases.TestcasesForLogin.checkTitle" duration-ms="18837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckValidCredentials -->
+      </class> <!-- com.testcases.TestcasesForLogin -->
+      <class name="com.testcases.TestcasesForAddUser">
+        <test-method signature="TestD001()[pri:0, instance:com.testcases.TestcasesForAddUser@75d2da2d]" started-at="2022-12-09T12:11:00Z" name="TestD001" finished-at="2022-12-09T12:11:00Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestD001 -->
+      </class> <!-- com.testcases.TestcasesForAddUser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
