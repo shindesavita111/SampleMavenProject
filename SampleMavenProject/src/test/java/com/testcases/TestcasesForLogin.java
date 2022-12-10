@@ -38,7 +38,7 @@ public class TestcasesForLogin {
 		WebElement dBoard = driver.findElement(By.xpath("/html/body/div/div[1]/section[1]/h1"));
 		String dBoard_name = dBoard.getText();
 		System.out.println(dBoard_name);
-		driver.close();
+		driver.quit();
 		Assert.assertEquals(dBoard_name, "Dashboard Courses Offered");
 	}
 
@@ -49,7 +49,7 @@ public class TestcasesForLogin {
 
 		String newRegistration = driver.findElement(By.xpath("/html/body/div/div[2]/p")).getText();
 
-		driver.close();
+		driver.quit();
 		Assert.assertEquals(newRegistration, "Register a new membership");
 		
 	}
